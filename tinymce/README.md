@@ -15,18 +15,17 @@ TinyMCE Open Source is a self-hosted, customizable rich text editor that provide
 You can access all premium features of TinyMCE using the following URL:
 
 ```sh
-https://cdn.jsdelivr.net/gh/al-jaber-nishad/OpenTiny@main/tinymce.min.js
+https://md-mh.github.io/html_css_js/tinymce/tinymce.min.js
 ```
 
 This repository serves as the source project for the above URL.
-
 
 ## 🛠️ Usage
 
 ### 1️⃣ Include TinyMCE in Your Project
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/al-jaber-nishad/OpenTiny@main/tinymce.min.js"></script>
+<script src="https://md-mh.github.io/html_css_js/tinymce/tinymce.min.js"></script>
 ```
 
 ### 2️⃣ Initialize TinyMCE
@@ -34,32 +33,10 @@ This repository serves as the source project for the above URL.
 ```html
 <script>
   tinymce.init({
-    selector: 'textarea',
-    plugins: 'lists link image code',
-    toolbar: 'undo redo | bold italic | alignleft aligncenter alignright | code'
+    selector: "textarea",
+    plugins: "lists link image code",
+    toolbar:
+      "undo redo | bold italic | alignleft aligncenter alignright | code",
   });
 </script>
 ```
-
-## 🎯 Contributing
-
-We welcome contributions! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -m "Added new feature"`).
-4. Push to your fork (`git push origin feature-branch`).
-5. Open a Pull Request.
-
-## 📜 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-For questions or suggestions, open an issue or reach out via [mailnishad02@gmail.com].
-
----
-
-⭐ **If you find this project useful, give it a star!** ⭐
-
